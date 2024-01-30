@@ -1,0 +1,56 @@
+body{
+    background-color: antiquewhite;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: -1%;
+    margin-bottom: -1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#placar{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#primeira-camada-jogo{
+    background-color: #4A752C;
+    width: 42%;
+    margin-left: 29%;
+    
+}
+#tabuleiro{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #578A34;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#tabuleiro2{
+    background-color: #A2D149;
+    width: 510px;
+    height: 510px;
+    margin: auto;
+}
+ul{
+    position:relative;
+    margin:0;
+    padding:0;
+}
+li{
+    display:block;
+    float:left;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+}
+li:nth-child(2n){
+    background-color: #A2D149;
+}
+li:nth-child(2n + 1){
+    background-color: #AAD751;
+}
