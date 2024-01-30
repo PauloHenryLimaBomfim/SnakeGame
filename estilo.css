@@ -8,11 +8,13 @@ body{
     margin-bottom: -1%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif';
+}
 #placar{
     display: flex;
     justify-content: flex-start;
     margin-left: 5%;
-    font-family: 'Times New Roman', Times, serif;
 }
 #primeira-camada-jogo{
     background-color: #4A752C;
